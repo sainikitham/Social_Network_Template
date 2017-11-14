@@ -1,0 +1,149 @@
+header{
+  background-image: linear-gradient(#03899b,#047387 60%, #033769);
+  color: white;
+  min-height: 100px;
+  padding-top: 25px;
+}
+header form{
+  float: right;
+}
+header img{
+  float: left;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+p{margin: 0;}
+.panel-heading{
+  background-image: linear-gradient(#03899b,#047387 60%, #033769);
+}
+
+.comment-avatar img{
+  width: 50px;
+  margin-right: 5px;
+}
+.friends ul{
+  margin-left: -17px;
+}
+.friends li{
+  list-style: none;
+  padding: 5px;
+  display: inline;
+  float: left;
+  /*margin-left: -15px;*/
+}
+.friends img{
+  width: 53px;
+}
+
+.bubble{
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
+}
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 15px solid #ccc;
+}
+.tip-left {
+  top: 16px;
+  left: -15px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+.pointer {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 13px;
+}
+.groups img{
+  float: left;
+  width: 90px;
+  margin-right: 5px;
+
+}
+.group-item{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+}
+footer{
+  background: linear-gradient(#03899b,#047387 60%, #033769);
+  height: 90px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+  border-top: 7px solid #ccc;
+}
+.comment-form input[type=text]{
+  width: 410px;
+  margin: 5px;
+}
+.post--actions{
+  margin-top: 5px;
+}
+.comment{
+  border: 1px solid #ccc;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.comment-text{
+  margin-top: 7px;
+
+}
+@media(min-width:991px){
+  .members-row a{
+    margin-top: 45px;
+  }
+}
+.profile ul{
+  margin-top: 30px;
+}
+.profile li{
+  list-style: none;
+  line-height: 1.9em;
+}
+.members-row img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.members-row .col-md-3{
+  margin-bottom: 10px;
+}
+.profile img{
+  width: 100%;
+}
+.members-row{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.group-item > *{
+  margin-top: 10px;
+}
+.photos ul{
+  width: 100%;
+}
+.photos li{
+  list-style: none;
+  margin: 5px;
+
+  width: 32%;
+}
+.photos img{
+  width: 100%;
+}
+.ekko-lightbox-nav-overlay{
+  margin-left: 50%;
+  font-size: 20px;
+}
